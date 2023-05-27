@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(25, 93, 93);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  padding: 8px;
+  margin: 10px;
+}
+.navbar ul li:hover {
+  background-color: teal;
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: white;
+}
+
+.header-img {
+  width: 100%;
+
+  height: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me-img {
+  height: 500px;
+  width: 500px;
+  border-radius: 6%;
+  padding: 25px;
+}
+
+.about-me-desc {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.projects img {
+  padding: 50px;
+}
+
+.projects h3 {
+  margin: 30px;
+}
+
+.projects p {
+  display: flex;
+  text-align: start;
+  justify-content: space-evenly;
+  padding: 10px;
+  padding: 50px;
+}
+
+.container {
+  display: grid;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(25, 93, 93);
+}
